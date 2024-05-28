@@ -1,0 +1,27 @@
+@import url('@radix-ui/themes/styles.css');
+
+html {
+  margin: auto;
+  display: flex;
+  padding: 20px;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+
+#editor {
+  border: 2px;
+  font-size: 20px;
+  background-color: lightblue;
+  font-family: verdana;
+}
+
+#preview {
+  border: 2px;
+  font-size: 20px;
+  background-color: lightblue;
+  font-family: verdana;
+  text-align: left;
+  padding: 10px 10px;
+}
