@@ -3,9 +3,11 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://whoremonger.github.io/markdown-previewer",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "publish": "gh-pages -d src",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
@@ -15,6 +17,7 @@
     "@radix-ui/themes": "^3.0.3",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.0",
+    "gh-pages": "^6.1.1",
     "lucide-react": "^0.372.0",
     "marked": "^12.0.2",
     "react": "^18.2.0",
