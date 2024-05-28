@@ -11,5 +11,5 @@ export default defineConfig({
       "@": path.resolve(__dirname, "./src"),
     },
   },
-  base: "https://whoremonger.github.io/markdown-previewer/"
+  base: "https://whoremonger.github.io/markdown-previewer/",
 })
