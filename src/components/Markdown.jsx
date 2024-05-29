@@ -20,6 +20,8 @@ import { marked } from 'marked'
 //decided to uninstall shadcn and use radix-ui
 
 //make sure site is hosted on github pages - not working
+
+//![alt text](image.jpg)
 function Markdown () {
 
   const [markdown, setMarkdown] = useState(`
@@ -41,7 +43,6 @@ function Markdown () {
 
   > blockquote
 
-  ![alt text](image.jpg)
 
   **bold text**
   `)
