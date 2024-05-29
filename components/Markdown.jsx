@@ -19,8 +19,7 @@ import { marked } from 'marked'
 //the UI library uses shadcn instead of react bootstrap
 //decided to uninstall shadcn and use radix-ui
 
-//fix markdown translation in preview
-//fix the markdown enter button? or do it real time?
+//make sure site is hosted on github pages - not working
 function Markdown () {
 
   const [markdown, setMarkdown] = useState(`
